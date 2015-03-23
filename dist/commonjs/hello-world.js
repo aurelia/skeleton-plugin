@@ -1,0 +1,11 @@
+"use strict";
+
+var _classCallCheck = function (instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } };
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var HelloWorld = exports.HelloWorld = function HelloWorld() {
+  _classCallCheck(this, HelloWorld);
+};

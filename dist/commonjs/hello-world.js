@@ -6,6 +6,8 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var HelloWorld = exports.HelloWorld = function HelloWorld() {
+var HelloWorld = function HelloWorld() {
   _classCallCheck(this, HelloWorld);
 };
+
+exports.HelloWorld = HelloWorld;

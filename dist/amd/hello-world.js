@@ -7,7 +7,9 @@ define(["exports"], function (exports) {
     value: true
   });
 
-  var HelloWorld = exports.HelloWorld = function HelloWorld() {
+  var HelloWorld = function HelloWorld() {
     _classCallCheck(this, HelloWorld);
   };
+
+  exports.HelloWorld = HelloWorld;
 });

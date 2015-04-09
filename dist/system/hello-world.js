@@ -8,9 +8,11 @@ System.register([], function (_export) {
 
       _classCallCheck = function (instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } };
 
-      HelloWorld = _export("HelloWorld", function HelloWorld() {
+      HelloWorld = function HelloWorld() {
         _classCallCheck(this, HelloWorld);
-      });
+      };
+
+      _export("HelloWorld", HelloWorld);
     }
   };
 });

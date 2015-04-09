@@ -1,10 +1,10 @@
-"use strict";
+'use strict';
 
-exports.install = install;
-Object.defineProperty(exports, "__esModule", {
+Object.defineProperty(exports, '__esModule', {
   value: true
 });
+exports.install = install;
 
 function install(aurelia) {
-  aurelia.globalizeResources("./hello-world");
+  aurelia.globalizeResources('./hello-world');
 }

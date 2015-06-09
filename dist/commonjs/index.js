@@ -3,8 +3,8 @@
 Object.defineProperty(exports, '__esModule', {
   value: true
 });
-exports.install = install;
+exports.configure = configure;
 
-function install(aurelia) {
+function configure(aurelia) {
   aurelia.globalizeResources('./hello-world');
 }

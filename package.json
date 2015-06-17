@@ -46,6 +46,7 @@
     "format": "register",
     "directories": {
       "lib": "dist/system"
-    }
+    },
+    "dependencies": {}
   }
 }

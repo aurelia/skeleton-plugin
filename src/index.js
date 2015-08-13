@@ -1,3 +1,3 @@
-export function configure(aurelia){
-  aurelia.globalizeResources('./hello-world');
+export function configure(config){
+  config.globalResources('./hello-world');
 }

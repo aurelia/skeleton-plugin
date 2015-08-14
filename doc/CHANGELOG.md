@@ -1,3 +1,11 @@
+## 0.3.0 (2015-08-14)
+
+
+#### Bug Fixes
+
+* **index:** update to latest configuration api ([44f7a015](http://github.com/aurelia/skeleton-plugin/commit/44f7a015c0f15251bd07b327e42c875eaccbb735))
+
+
 ### 0.2.1 (2015-07-07)
 
 

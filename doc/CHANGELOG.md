@@ -1,3 +1,11 @@
+### 1.0.0-beta.1.0.0 (2016-01-29)
+
+
+#### Features
+
+* **all:** update jspm meta ([a2afb48e](http://github.com/aurelia/skeleton-plugin/commit/a2afb48e7cc83ab736b51ac2e4d5b7b3e3177ec2))
+
+
 ## 0.3.0 (2015-08-14)
 
 
@@ -22,4 +30,3 @@
 #### Features
 
 * **all:** initial commit of skeleton ([51a036d1](http://github.com/aurelia/skeleton-plugin/commit/51a036d146750a0bafd443dbc3def51ef7f89f6e))
-

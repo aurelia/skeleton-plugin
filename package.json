@@ -47,10 +47,14 @@
   },
   "jspm": {
     "registry": "npm",
+    "jspmPackage": true,
     "main": "index",
     "format": "amd",
     "directories": {
       "dist": "dist/amd"
+    },
+    "peerDependencies": {
+      
     },
     "devDependencies": {
       "aurelia-polyfills": "^1.0.0-beta.1.0.6",

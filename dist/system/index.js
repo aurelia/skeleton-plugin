@@ -1,14 +1,14 @@
-System.register([], function (_export) {
-  'use strict';
+'use strict';
 
-  _export('configure', configure);
-
-  function configure(config) {
-    config.globalResources('./hello-world');
-  }
-
+System.register([], function (_export, _context) {
   return {
     setters: [],
-    execute: function () {}
+    execute: function () {
+      function configure(config) {
+        config.globalResources('./hello-world');
+      }
+
+      _export('configure', configure);
+    }
   };
 });

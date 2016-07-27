@@ -7,9 +7,9 @@ System.config({
   },
 
   map: {
-    "aurelia-polyfills": "npm:aurelia-polyfills@1.0.0-rc.1.0.0",
-    "npm:aurelia-polyfills@1.0.0-rc.1.0.0": {
-      "aurelia-pal": "npm:aurelia-pal@1.0.0-rc.1.0.0"
+    "aurelia-polyfills": "npm:aurelia-polyfills@1.0.0",
+    "npm:aurelia-polyfills@1.0.0": {
+      "aurelia-pal": "npm:aurelia-pal@1.0.0"
     }
   }
 });

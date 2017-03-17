@@ -1,5 +1,4 @@
 var path = require('path');
-var paths = require('./paths');
 
 exports.base = function() {
   return {
@@ -11,15 +10,15 @@ exports.base = function() {
     moduleIds: false,
     comments: false,
     compact: false,
-    code:true,
-    presets: [ 'es2015-loose', 'stage-1'],
+    code: true,
+    presets: [['es2015', { loose: true }], 'stage-1'],
     plugins: [
       'syntax-flow',
       'transform-decorators-legacy',
       'transform-flow-strip-types'
     ]
   };
-}
+};
 
 exports.commonjs = function() {
   var options = exports.base();
@@ -41,6 +40,6 @@ exports.system = function() {
 
 exports.es2015 = function() {
   var options = exports.base();
-  options.presets = ['stage-1']
+  options.presets = ['stage-1'];
   return options;
 };
